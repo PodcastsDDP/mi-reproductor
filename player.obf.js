@@ -1,1 +1,131 @@
-(function(){function _0x5d1a(_0x5ce1f3,_0x2b13ed){const _0x19545f=_0x1954();return _0x5d1a=function(_0x5d1a54,_0x45a78e){_0x5d1a54=_0x5d1a54-0x96;let _0x1d82e3=_0x19545f[_0x5d1a54];return _0x1d82e3;},_0x5d1a(_0x5ce1f3,_0x2b13ed);}const _0x1f25d9=_0x5d1a;function _0x1954(){const _0x5137b3=['duration','add','playing','replace','currentTime','pause','classList','fa-pause','innerHTML','onclick','appendChild','offsetWidth','querySelector','play','description','title','small','volume','playItem\x20','src','DOMContentLoaded','log','style','%','push','audio','length','getElementById','floor','padStart','textContent','none','fa-play'];_0x1954=function(){return _0x5137b3;};return _0x1954();}(function(){document['addEventListener'](_0x1f25d9(0xa5),function(){const _0x483fcd=_0x1f25d9;let _0x4e6a67=document[_0x483fcd(0xad)]('playBtn'),_0x4108fb=document[_0x483fcd(0xad)]('prevBtn'),_0x147877=document[_0x483fcd(0xad)]('nextBtn'),_0x5f0343=_0x4e6a67[_0x483fcd(0xa0)]('i'),_0x2ea936=document[_0x483fcd(0xad)]('playlistBox'),_0x4b35d2=document[_0x483fcd(0xad)]('togglePlaylist'),_0x3d78ee=document[_0x483fcd(0xad)]('progress'),_0x2c8a39=document[_0x483fcd(0xad)]('progressBar'),_0x15e197=document[_0x483fcd(0xad)]('currentTime'),_0x36fcfa=document[_0x483fcd(0xad)](_0x483fcd(0x9a)),_0x3ebcf0=document[_0x483fcd(0xad)]('nowPlaying'),_0x28133f=document[_0x483fcd(0xad)]('volumeSlider');let _0x403a34=![],_0x100d22=0x0;const _0x3c4f65=new Audio(),_0x21df63=[{'title':'Hola,\x20Durazno','description':'Dos\x20noticias\x20en\x20formato\x20Podcast','duration':'2\x20minutos','audio':'https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3'},{'title':'Navidad\x20a\x20Cielo\x20Abierto','description':'Otros\x20datos\x20de\x20la\x20conferencia\x20de\x20prensa','duration':'16\x20minutos','audio':'https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Acieloabiertoconferencia.mp3'},{'title':'Éxitos\x20en\x20Español','description':'Selección\x20de\x20canciones\x20populares','duration':'11\x20minutos','audio':'https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3'},{'title':'Llamadas\x20de\x20Primavera','description':'Podcast\x20con\x20Fernando\x20Salvador\x20Báez','duration':'58\x20segundos','audio':'https://duraznodigitalpremium.com/wp-content/uploads/2025/12/3diciembre2b.mp3'}];function _0x451246(){const _0x3f3bb5=_0x483fcd;_0x2ea936[_0x3f3bb5(0xa8)]='',_0x21df63['forEach']((_0x3ac756,_0x20361f)=>{const _0x1a7318=_0x3f3bb5,_0x4a0610=document['createElement']('div');_0x4a0610['className']=_0x1a7318(0xb2)+(_0x20361f===_0x100d22?'active':''),_0x4a0610[_0x1a7318(0x9f)]=`<h4>${_0x3ac756[_0x1a7318(0xa3)]}</h4><p>${_0x3ac756[_0x1a7318(0xa2)]}</p><${_0x1a7318(0xa4)}>${_0x3ac756[_0x1a7318(0x96)]}</${_0x1a7318(0xa4)}>`,_0x4a0610[_0x1a7318(0xa9)]=()=>_0x46db3e(_0x20361f),_0x2ea936[_0x1a7318(0xaa)](_0x4a0610);});}function _0x46db3e(e){const _0x12ede2=_0x483fcd;_0x100d22=e;const t=_0x21df63[e];_0x3c4f65[_0x12ede2(0xa6)]=t[_0x12ede2(0xb4)],_0x3c4f65[_0x12ede2(0xa1)]()['then'](()=>{const e=_0x12ede2;_0x403a34=!0x0,_0x5f0343[e(0x99)](e(0x9c),e(0x9e)),_0x4e6a67[_0x12ede2(0x9b)][e(0x97)](_0x12ede2(0x98)),_0x3ebcf0[e(0xaf)]=t[e(0xa3)],_0x451246();});}function _0x4f3e4b(e){const t=Math[_0x483fcd(0xae)](e/0x3c);return`${t}:${Math[_0x483fcd(0xae)](e%0x3c)['toString']()[_0x483fcd(0xb0)](0x2,'0')}`;} _0x4e6a67[_0x483fcd(0xa9)]=()=>{const e=_0x483fcd;_0x3c4f65[e(0xa6)]? _0x403a34?(_0x3c4f65[e(0x9a)](),_0x5f0343[e(0x99)](e(0x9e),e(0x9c)),_0x4e6a67['classList']['remove']('playing'),_0x403a34=!1):(_0x3c4f65['play'](),_0x5f0343[e(0x99)](e(0x9c),e(0x9e)),_0x4e6a67['classList'][e(0x97)](e(0x98)),_0x403a34=!0x0):_0x46db3e(0x0);},_0x147877['onclick']=()=>{_0x100d22=(_0x100d22+0x1)%_0x21df63[_0x483fcd(0xb5)],_0x46db3e(_0x100d22);},_0x4108fb['onclick']=()=>{_0x100d22=(_0x100d22-0x1+_0x21df63['length'])%_0x21df63['length'],_0x46db3e(_0x100d22);},_0x3c4f65['ontimeupdate']=()=>{const e=_0x483fcd;_0x3c4f65[e(0x96)]&&(_0x3d78ee['style']['width']=_0x3c4f65[e(0x9a)]/_0x3c4f65[e(0x96)]*0x64+e(0xac),_0x15e197[e(0xaf)]=_0x4f3e4b(_0x3c4f65[e(0x9a)]),_0x36fcfa[e(0xaf)]=_0x4f3e4b(_0x3c4f65[e(0x96)]));},_0x2c8a39['onclick']=e=>{const t=e['offsetX']/_0x2c8a39[_0x483fcd(0xab)];_0x3c4f65['currentTime']=t*_0x3c4f65[_0x483fcd(0x96)];},_0x28133f['oninput']=()=>{_0x3c4f65[_0x483fcd(0xb3)]=_0x28133f['value']/0x64;},_0x4b35d2[_0x483fcd(0xa9)]=()=>{_0x2ea936['style']['display']=_0x2ea936[_0x483fcd(0xa6)][_0x483fcd(0xb1)]==='block'?_0x483fcd(0xb1):'block';},_0x451246();});})();})();
+document.addEventListener("DOMContentLoaded", () => {
+  const playBtn = document.getElementById("playBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const playIcon = playBtn.querySelector("i");
+  const playlistBox = document.getElementById("playlistBox");
+  const togglePlaylist = document.getElementById("togglePlaylist");
+
+  const progress = document.getElementById("progress");
+  const progressBar = document.getElementById("progressBar");
+  const currentTimeEl = document.getElementById("currentTime");
+  const durationEl = document.getElementById("duration");
+  const nowPlaying = document.getElementById("nowPlaying");
+  const volumeSlider = document.getElementById("volumeSlider");
+
+  let isPlaying = false;
+  let currentTrackIndex = 0;
+  const audioPlayer = new Audio();
+
+  // ======= Lista de audios =======
+  const playlist = [
+    {
+      title: "Hola, Durazno",
+      description: "Dos noticias en formato Podcast",
+      duration: "2:00",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3"
+    },
+    {
+      title: "Navidad a Cielo Abierto",
+      description: "Otros datos de la conferencia de prensa",
+      duration: "16:00",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Acieloabiertoconferencia.mp3"
+    },
+    {
+      title: "Éxitos en Español",
+      description: "Selección de canciones populares",
+      duration: "11:00",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3"
+    },
+    {
+      title: "Llamadas de Primavera",
+      description: "Entregaron premio a vecina. Podcast con Fernando Salvador Báez",
+      duration: "0:58",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/3diciembre2b.mp3"
+    }
+  ];
+
+  // ======= Función para renderizar playlist =======
+  function renderPlaylist() {
+    playlistBox.innerHTML = "";
+    playlist.forEach((track, index) => {
+      const item = document.createElement("div");
+      item.className = "playItem " + (index === currentTrackIndex ? "active" : "");
+      item.innerHTML = `
+        <h4>${track.title}</h4>
+        <p>${track.description}</p>
+        <small>${track.duration}</small>
+      `;
+      item.onclick = () => playTrack(index);
+      playlistBox.appendChild(item);
+    });
+  }
+
+  // ======= Reproducir una pista =======
+  function playTrack(index) {
+    currentTrackIndex = index;
+    const track = playlist[index];
+    audioPlayer.src = track.audio;
+    audioPlayer.play().then(() => {
+      isPlaying = true;
+      playIcon.classList.replace("fa-play", "fa-pause");
+      playBtn.classList.add("playing");
+      nowPlaying.textContent = track.title;
+      renderPlaylist();
+    }).catch(err => console.error("Error al reproducir:", err));
+  }
+
+  // ======= Botón play/pause =======
+  playBtn.onclick = () => {
+    if (!audioPlayer.src) {
+      playTrack(0);
+    } else if (isPlaying) {
+      audioPlayer.pause();
+      playIcon.classList.replace("fa-pause", "fa-play");
+      playBtn.classList.remove("playing");
+      isPlaying = false;
+    } else {
+      audioPlayer.play();
+      playIcon.classList.replace("fa-play", "fa-pause");
+      playBtn.classList.add("playing");
+      isPlaying = true;
+    }
+  };
+
+  // ======= Siguiente / Anterior =======
+  nextBtn.onclick = () => playTrack((currentTrackIndex + 1) % playlist.length);
+  prevBtn.onclick = () => playTrack((currentTrackIndex - 1 + playlist.length) % playlist.length);
+
+  // ======= Barra de progreso =======
+  audioPlayer.ontimeupdate = () => {
+    if (audioPlayer.duration) {
+      const pct = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+      progress.style.width = pct + "%";
+      currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
+      durationEl.textContent = formatTime(audioPlayer.duration);
+    }
+  };
+
+  progressBar.onclick = e => {
+    const x = e.offsetX / progressBar.offsetWidth;
+    audioPlayer.currentTime = x * audioPlayer.duration;
+  };
+
+  function formatTime(s) {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60).toString().padStart(2, "0");
+    return `${m}:${sec}`;
+  }
+
+  // ======= Volumen =======
+  volumeSlider.oninput = () => { audioPlayer.volume = volumeSlider.value / 100; };
+
+  // ======= Toggle playlist =======
+  togglePlaylist.onclick = () => {
+    playlistBox.style.display = playlistBox.style.display === "block" ? "none" : "block";
+  };
+
+  // ======= Init =======
+  renderPlaylist();
+});
+
