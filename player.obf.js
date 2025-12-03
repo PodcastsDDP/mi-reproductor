@@ -43,25 +43,25 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Hola, Durazno",
       description: "Dos noticias en formato Podcast",
-      duration: "2:00",
+      duration: "Duración dos minutos y 21 segundos",
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3"
     },
     {
       title: "Navidad a Cielo Abierto",
       description: "Otros datos de la conferencia de prensa",
-      duration: "16:00",
+      duration: "16 minutos",
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Acieloabiertoconferencia.mp3"
     },
     {
       title: "Éxitos en Español",
       description: "Selección de canciones populares",
-      duration: "11:00",
+      duration: "10 minutos a todo ritmo",
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3"
     },
     {
       title: "Llamadas de Primavera",
       description: "Entregaron premio a vecina. Podcast con Fernando Salvador Báez",
-      duration: "0:58",
+      duration: "No más de un minuto",
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/3diciembre2b.mp3"
     }
   ];
@@ -149,5 +149,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
