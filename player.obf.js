@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3"
     },
     {
-      title: "Navidad a Cielo Abierto",
+      title: "Navidad a Cielo Abierto en Durazno",
       description: "Otros datos de la conferencia de prensa",
       duration: "16:00",
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Acieloabiertoconferencia.mp3"
@@ -149,3 +149,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
