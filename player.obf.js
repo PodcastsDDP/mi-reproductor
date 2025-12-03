@@ -1,4 +1,25 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+  // ======= Insertar CSS dinámicamente =======
+  const style = document.createElement('style');
+  style.textContent = `
+  #togglePlaylist {
+      padding: 6px 10px;
+      background: #1f3a49;   /* color original */
+      border: 1px solid #ffcc00;
+      color: #ffcc00;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: .3s;
+  }
+  #togglePlaylist:hover {
+      background: #ffcc00;
+      color: #000;
+  }
+  `;
+  document.head.appendChild(style);
+
+  // ======= Elementos del reproductor =======
   const playBtn = document.getElementById("playBtn");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
@@ -45,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   ];
 
-  // ======= Función para renderizar playlist =======
+  // ======= Renderizar playlist =======
   function renderPlaylist() {
     playlistBox.innerHTML = "";
     playlist.forEach((track, index) => {
@@ -61,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ======= Reproducir una pista =======
+  // ======= Reproducir pista =======
   function playTrack(index) {
     currentTrackIndex = index;
     const track = playlist[index];
@@ -128,4 +149,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
-
