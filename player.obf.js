@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3"
     },
     {
-      title: "Navidad a Cielo Abierto",
-      description: "Otros datos de la conferencia de prensa",
-      duration: "16 minutos",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Acieloabiertoconferencia.mp3"
+      title: "Canciones Nuestras",
+      description: "Zitarrosa, Guerra, Estramín, Zucará",
+      duration: "20 min. para conectar con nuestros cantores",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/LatinasFolclore1b.mp3"
     },
     {
       title: "Éxitos en Español",
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
