@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Lista de audios =======
   const playlist = [
     {
-      title: "Hola, Durazno",
-      description: "Dos noticias en formato Podcast",
-      duration: "Duración dos minutos y 21 segundos",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/HolaDurazno2-3-diciembre.mp3"
+      title: "Info Podcast",
+      description: "Un antes y un después",
+      duration: "Anuncios de CAMEDUR",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/4diciembrepodcast1.mp3"
     },
     {
       title: "Canciones Nuestras",
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
