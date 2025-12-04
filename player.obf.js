@@ -53,16 +53,16 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/LatinasFolclore1b.mp3"
     },
     {
-      title: "Éxitos en Español",
-      description: "Selección de canciones populares",
-      duration: "10 minutos a todo ritmo",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3"
+      title: "Dra. María Villarrueta",
+      description: "Anuncios en Conferencia de Prensa",
+      duration: "Camedur adquirirá Mamógrafo 3D",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/camedur-villarueta-2025.mp3"
     },
     {
-      title: "Llamadas de Primavera",
-      description: "Entregaron premio a vecina. Podcast con Fernando Salvador Báez",
+      title: "Éxitos en Español",
+      description: "Selección de canciones populares",
       duration: "No más de un minuto",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/3diciembre2b.mp3"
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3"
     }
   ];
 
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
