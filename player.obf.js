@@ -59,10 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/camedur-villarueta-2025.mp3"
     },
     {
-      title: "Canciones Nuestras",
-      description: "Zitarrosa, Guerra, Estramín, Zucará",
-      duration: "20 min. para conectar con nuestros cantores",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/LatinasFolclore1b.mp3"
+      title: "Pura energía",
+      description: "Éxitos para activar",
+      duration: "Dalma-Sugo-Américo-Britos-Leiva y más.",
+      audio: "https://archive.org/download/latinas-2-192/Latinas2-192.mp3"
     }
   ];
 
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
