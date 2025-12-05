@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Lista de audios =======
   const playlist = [
     {
-      title: "Info Podcast",
-      description: "Un antes y un después",
-      duration: "Anuncios de CAMEDUR",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/4diciembrepodcast1.mp3"
+      title: "Habla Yamandú Orsi",
+      description: "Presidente e Intendente en Rincón del Bonete",
+      duration: "Duración 1 minuto",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/5diciembre2025.mp3"
     },
     {
       title: "Canciones Nuestras",
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
