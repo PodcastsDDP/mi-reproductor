@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/5diciembre2025.mp3"
     },
     {
-      title: "Canciones Nuestras",
-      description: "Zitarrosa, Guerra, Estramín, Zucará",
-      duration: "20 min. para conectar con nuestros cantores",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/LatinasFolclore1b.mp3"
+      title: "Ateneo Clínico",
+      description: "“El Sauzal” Durazno",
+      duration: "Hablan Gonzalo Rodríguez y Dr. Juan Triaca",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/5diciembredos.mp3"
     },
     {
       title: "Dra. María Villarrueta",
@@ -59,10 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
       audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/camedur-villarueta-2025.mp3"
     },
     {
-      title: "Éxitos en Español",
-      description: "Selección de canciones populares",
-      duration: "No más de un minuto",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/Latinas1.mp3"
+      title: "Canciones Nuestras",
+      description: "Zitarrosa, Guerra, Estramín, Zucará",
+      duration: "20 min. para conectar con nuestros cantores",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/LatinasFolclore1b.mp3"
     }
   ];
 
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
