@@ -41,22 +41,22 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Lista de audios =======
   const playlist = [
     {
-      title: "Habla Yamandú Orsi",
-      description: "Presidente e Intendente en Rincón del Bonete",
-      duration: "Duración 1 minuto",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/5diciembre2025.mp3"
+      title: "Informativo Digital",
+      description: "Dos noticias de interés general",
+      duration: "Sarampión - Retirados Policiales",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/6diciembrePodcast2.mp3"
     },
     {
-      title: "Ateneo Clínico",
-      description: "“El Sauzal” Durazno",
-      duration: "Hablan Gonzalo Rodríguez y Dr. Juan Triaca",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/5diciembredos.mp3"
+      title: "Una noticia",
+      description: "“Vacunación este sábabado",
+      duration: "Horarios y centros habilitados - Sarampión",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/6diciembresarampion.mp3"
     },
     {
-      title: "Dra. María Villarrueta",
-      description: "Anuncios en Conferencia de Prensa",
-      duration: "Camedur adquirirá Mamógrafo 3D",
-      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/camedur-villarueta-2025.mp3"
+      title: "La otra información",
+      description: "Retirados Policiales en Asamblea",
+      duration: "Destacan tres temas",
+      audio: "https://duraznodigitalpremium.com/wp-content/uploads/2025/12/6diciembreretiradospoliciales.mp3"
     },
     {
       title: "Pura energía",
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ======= Init =======
   renderPlaylist();
 });
+
 
 
 
